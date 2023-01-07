@@ -42,9 +42,14 @@
 }
 .section-header {
   margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
 }
 .section-description {
   margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 26px;
   color: #444343;
 }
@@ -123,6 +128,13 @@ ul li::before {
 }
 .future {
   margin-left: 230px;
+}
+.future-details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .social {
   padding-top: 20px;
