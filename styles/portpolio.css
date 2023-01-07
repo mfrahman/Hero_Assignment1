@@ -38,6 +38,7 @@
     margin-top: 130px;
     margin-left: 206px ;
     margin-right: 322px ;
+    margin-bottom: 130px;
 }
 .section-header{
     margin-bottom: 24px;
@@ -58,7 +59,47 @@ ul li::before {
     content: '✓ ';
     color: green;
 }
+.plan-text{
+    margin-left: 711px;
+    margin-bottom: 24px;
+}
 .plans-container{
     display: flex;
-    align-items: center;
+    margin-bottom: 130px;
+    margin-left: 230px;
+}
+
+.gradient-image{
+    position: relative;
+    margin-bottom: 130px;
+}
+.positive-text{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px ;
+}
+.call-btn{
+    position: absolute;
+    top: 140px;
+    left: 16px;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+}
+.footer-container{
+    background: #151414;
+    color: #FFFFFF;
+    
+}
+.future{
+    margin-left: 230px;
+}
+.social{
+    margin-left: 230px;
 }
