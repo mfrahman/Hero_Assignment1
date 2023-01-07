@@ -33,3 +33,32 @@
     font-family: 'Work Sans';
     border: 0;
 }
+.middle-section{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 206px ;
+    margin-right: 322px ;
+}
+.section-header{
+    margin-bottom: 24px;
+}
+.section-description{
+    margin-bottom: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.middle-image{
+    margin-right: 85px;
+}
+
+ul {
+    list-style: none;
+}
+ul li::before {
+    content: '✓ ';
+    color: green;
+}
+.plans-container{
+    display: flex;
+    align-items: center;
+}
