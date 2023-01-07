@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+ 
+ /* The container class holds texts and image */
+.container{
+    position: relative;
+}
+.text{
+    position: absolute;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+}
+.text-summary{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.contact-btn{
+    background: #F15B22;       
+    color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    font-family: 'Work Sans';
+    border: 0;
+}
