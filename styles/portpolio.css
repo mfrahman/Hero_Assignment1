@@ -62,6 +62,9 @@ ul li::before {
 }
 /* My Plans section */
 .plan-text {
+  align-items: center;
+  font-weight: 700;
+  font-size: 40px;
   margin-left: 711px;
   margin-bottom: 24px;
 }
@@ -75,11 +78,14 @@ ul li::before {
   padding-right: 100px;
 }
 .plans-container {
+  align-items: center;
   display: flex;
   margin-bottom: 130px;
   margin-left: 230px;
 }
-
+.positive-mindset {
+  padding-left: 230px;
+}
 .gradient-image {
   position: relative;
   margin-bottom: 130px;
