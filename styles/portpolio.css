@@ -58,10 +58,21 @@ ul {
 ul li::before {
     content: '✓ ';
     color: green;
+    line-height: 26px;
 }
+/* My Plans section */
 .plan-text{
     margin-left: 711px;
     margin-bottom: 24px;
+}
+.web{
+    padding-right: 100px;
+}
+.JavaS{
+    padding-right: 100px;
+}
+.smoking{
+    padding-right: 100px;
 }
 .plans-container{
     display: flex;
@@ -92,6 +103,14 @@ ul li::before {
     color: #F15B22;
     background-color: #FFFFFF;
 }
+/* Footer section */
+.footer{
+    margin-left: 10px;
+    padding-top: 40px;
+    color: #FFFFFF;
+    display: flex;
+    background: #151414;
+}
 .footer-container{
     background: #151414;
     color: #FFFFFF;
@@ -101,5 +120,13 @@ ul li::before {
     margin-left: 230px;
 }
 .social{
+    padding-top: 20px;
+    margin-top: 32 px;
     margin-left: 230px;
+    
+}
+
+
+.subscribe-containter{
+   
 }
